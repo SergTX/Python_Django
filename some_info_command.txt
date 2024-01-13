@@ -1,0 +1,13 @@
+pip install Django
+django-admin  # should give you commands to use
+django-admin startproject mypage  -creates a project to start
+
+1. Set up Development Enviroment
+ - ide - vscode
+  - extensions ( python extension , pylance)
+2. Launch a local pre-view server
+ - open terminal - python manage.py runserver , inside folder where manage.py located
+
+3. Created challenges folder - different folder
+   - python manage.py startapp 'name_of'
+   - python manage.py startapp challenges

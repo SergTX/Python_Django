@@ -1,0 +1,11 @@
+###########################                 Setup
+django-admin startproject monthly_challenges_project
+cd into monthly_challenges_project
+python manage.py startapp challenges
+
+# create urls.py file
+
+# run server - navigate to the folder where manage.py located
+python manage.py runserver
+
+
