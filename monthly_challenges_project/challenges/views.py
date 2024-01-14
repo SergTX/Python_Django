@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.http import Http404, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 from django.template.loader import render_to_string           # importing to read html files, converts to a string
 
@@ -56,5 +56,5 @@ def monthly_challenges(request, month):
             "monthly_text": challenge_text         # step 1 , create a dict with a key and pass a parameter
         })      # replacing  response_data = render_to_string('challenges/challenge.html') by render   # response_data = render_to_string('challenges/challenge.html')   # pass location of html         # f"<h1>{
     except:
-        return HttpResponseNotFound("<h1>Month not supported</h1>")
+        raise Http404("From 404 - Not found")
 
