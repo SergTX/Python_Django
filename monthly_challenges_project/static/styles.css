@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&display=swap');
+
+html {
+    font-family: 'Salsa', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #4d4c4c;
+}
+

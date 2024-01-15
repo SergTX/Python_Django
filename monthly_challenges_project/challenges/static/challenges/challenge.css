@@ -1,0 +1,32 @@
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1bf13f;
+
+}
+
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #164ae5;
+}
+
+.fallback {
+    text-align: center;
+    color: darkred;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h1:hover,
+h1:active{
+    color: #f2eff3;
+}
+
+h2:hover,
+h2:active{
+    color: #ad0be3;
+}

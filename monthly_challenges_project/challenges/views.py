@@ -6,7 +6,7 @@ from django.template.loader import render_to_string           # importing to rea
 # Create your views here.
 
 monthly_challenges_dict = {
-    "january": "Hi , you are in January month",
+    "january": "Hi , Milana you are in January month",
     "february": "Hi , you are in January month",
     "march": "Hi , you are in January month",
     "april": "Hi , you are in april month",
